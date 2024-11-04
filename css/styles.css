@@ -334,7 +334,6 @@ main {
   text-transform: uppercase;
   color: #4d5ae5;
   font-family: 'Raleway', sans-serif;
-  margin-bottom: 16px;
 }
 .endf {
   width: 264px;
@@ -347,4 +346,5 @@ main {
 }
 .logo-nav-footer {
   display: inline-block;
+  margin-bottom: 16px;
 }
