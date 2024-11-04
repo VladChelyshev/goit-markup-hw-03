@@ -27,6 +27,7 @@ h3 {
   background: #fff;
   display: flex;
   align-items: center;
+  margin-right: auto;
 }
 .section-f {
   background: #2e2f42;
@@ -191,7 +192,6 @@ img {
   justify-content: flex-start;
   flex-direction: row;
   gap: 40px;
-  margin-right: 332px;
   width: 261px;
 }
 
@@ -282,6 +282,11 @@ img {
 
 .section-b {
   margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 main {
   flex-grow: 1;
