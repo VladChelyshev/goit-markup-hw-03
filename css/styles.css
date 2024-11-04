@@ -336,12 +336,7 @@ main {
 .endf {
   width: 264px;
 }
-.footer .container {
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: column;
-  gap: 0px;
-}
+
 .logoend {
   display: inline-block;
   margin-bottom: 16px;
