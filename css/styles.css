@@ -47,6 +47,7 @@ h3 {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 24px 0;
 }
 .spc:hover,
 .spc:focus {
@@ -197,9 +198,6 @@ img {
 .navigation .nav-link {
   flex-basis: calc((100% - 80px) / 3);
 }
-.nav-link {
-  padding: 24px 0;
-}
 .container-b .container {
   display: flex;
   flex-direction: row;
@@ -344,7 +342,7 @@ main {
   flex-direction: column;
   gap: 0px;
 }
-.logo-nav-footer {
+.logoend {
   display: inline-block;
   margin-bottom: 16px;
 }
