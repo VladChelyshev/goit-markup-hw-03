@@ -26,6 +26,7 @@ h3 {
 .navigation-gl {
   background: #fff;
   display: flex;
+  align-items: center;
 }
 .section-f {
   background: #2e2f42;
@@ -70,7 +71,7 @@ h3 {
   text-align: center;
   color: #fff;
   margin-bottom: 48px;
-  width: 496px;
+  max-width: 496px;
 }
 .butt {
   font-weight: 500;
@@ -79,8 +80,9 @@ h3 {
   letter-spacing: 0.04em;
   color: #fff;
   font-family: 'Roboto', sans-serif;
-  background: #4d5ae5;
+  background-color: #4d5ae5;
   cursor: pointer;
+  border-radius: 4px;
 }
 .butt:hover,
 .butt:focus {
@@ -177,8 +179,8 @@ img {
   display: block;
 }
 .container {
-  margin: 0 auto;
   width: 1158px;
+  margin: 0 auto;
   padding: 0 15px;
 }
 
@@ -195,7 +197,9 @@ img {
 .navigation .nav-link {
   flex-basis: calc((100% - 80px) / 3);
 }
-
+.nav-link {
+  padding: 24px 0;
+}
 .container-b .container {
   display: flex;
   flex-direction: row;
@@ -252,8 +256,7 @@ img {
   border-radius: 0 0 4px 4px;
 }
 .our-teamm {
-  margin: 32px 16px;
-  width: 232px;
+  padding: 32px 0;
 }
 .our-team {
   display: flex;
@@ -302,22 +305,23 @@ main {
 .logo-footer {
   color: #f4f4fd;
 }
-.page-header .container {
+.nav-header {
   display: flex;
-  padding: 24px 0;
 }
+
 .contacts-adrt {
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
 .contacts-adr {
   font-style: normal;
 }
 .butt {
-  display: flex;
-  gap: 10px;
-  border-radius: 4px;
-  padding: 16px 32px;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
 }
 .section-f {
   padding: 188px 0;
@@ -331,7 +335,6 @@ main {
   color: #4d5ae5;
   font-family: 'Raleway', sans-serif;
   margin-bottom: 16px;
-  width: 115px;
 }
 .endf {
   width: 264px;
@@ -341,4 +344,7 @@ main {
   justify-content: flex-start;
   flex-direction: column;
   gap: 0px;
+}
+.logo-nav-footer {
+  display: inline-block;
 }
